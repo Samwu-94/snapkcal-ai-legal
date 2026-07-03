@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SnapKcal AI 隐私政策</title>
+    <style>
+        :root {
+            color-scheme: light;
+            --bg: #f6f8fb;
+            --panel: #ffffff;
+            --text: #18212f;
+            --muted: #5d6b7c;
+            --line: #dde5ee;
+            --accent: #0d9488;
+            --accent-dark: #0f766e;
+            --warning-bg: #fff7ed;
+            --warning-line: #f97316;
+            --note-bg: #ecfeff;
+            --note-line: #06b6d4;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.72;
+            color: var(--text);
+            background: var(--bg);
+        }
+
+        .page {
+            max-width: 920px;
+            margin: 0 auto;
+            padding: 32px 20px 48px;
+        }
+
+        header {
+            padding: 32px;
+            border: 1px solid var(--line);
+            border-radius: 8px;
+            background: var(--panel);
+        }
+
+        h1 {
+            margin: 0 0 12px;
+            font-size: 32px;
+            line-height: 1.25;
+        }
+
+        .subtitle,
+        .meta {
+            margin: 0;
+            color: var(--muted);
+        }
+
+        .meta {
+            margin-top: 12px;
+            font-size: 14px;
+        }
+
+        nav {
+            margin-top: 18px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        nav a {
+            color: var(--accent-dark);
+            text-decoration: none;
+            font-size: 14px;
+            border: 1px solid var(--line);
+            border-radius: 999px;
+            padding: 6px 12px;
+            background: #fff;
+        }
+
+        main {
+            margin-top: 20px;
+            padding: 32px;
+            border: 1px solid var(--line);
+            border-radius: 8px;
+            background: var(--panel);
+        }
+
+        h2 {
+            margin: 34px 0 12px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--line);
+            font-size: 22px;
+        }
+
+        h2:first-child {
+            margin-top: 0;
+        }
+
+        h3 {
+            margin: 24px 0 8px;
+            font-size: 17px;
+        }
+
+        p {
+            margin: 10px 0;
+        }
+
+        ul {
+            margin: 10px 0 14px;
+            padding-left: 22px;
+        }
+
+        li {
+            margin: 6px 0;
+        }
+
+        strong {
+            color: #111827;
+        }
+
+        .box {
+            margin: 18px 0;
+            padding: 16px 18px;
+            border-left: 4px solid var(--note-line);
+            border-radius: 6px;
+            background: var(--note-bg);
+        }
+
+        .warning {
+            border-left-color: var(--warning-line);
+            background: var(--warning-bg);
+        }
+
+        .pending {
+            margin-top: 28px;
+            padding: 18px;
+            border: 1px dashed var(--warning-line);
+            border-radius: 8px;
+            background: #fffaf5;
+        }
+
+        footer {
+            margin-top: 20px;
+            padding: 20px 32px;
+            border: 1px solid var(--line);
+            border-radius: 8px;
+            background: var(--panel);
+            color: var(--muted);
+            font-size: 14px;
+        }
+
+        @media (max-width: 640px) {
+            .page {
+                padding: 16px 12px 32px;
+            }
+
+            header,
+            main,
+            footer {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 26px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <header>
+            <h1>SnapKcal AI 隐私政策</h1>
+            <p class="subtitle">Privacy Policy for SnapKcal AI</p>
+            <p class="meta">版本：2026-07 | 生效日期：2026-07-03 | 适用范围：SnapKcal AI MVP</p>
+            <nav aria-label="政策目录">
+                <a href="#summary">要点</a>
+                <a href="#data">收集的信息</a>
+                <a href="#photo-ai">照片与 AI</a>
+                <a href="#subscription">订阅</a>
+                <a href="#third-party">第三方服务</a>
+                <a href="#rights">用户权利</a>
+                <a href="#english">English Summary</a>
+            </nav>
+        </header>
+
+        <main>
+            <section id="summary">
+                <h2>一、政策要点</h2>
+                <p>SnapKcal AI 是一款饮食记录、热量估算、AI 食物识别、智能饮食建议与一般健康管理工具。我们重视你的隐私与个人信息保护。本政策说明我们如何收集、使用、存储、共享和保护你的信息。</p>
+                <div class="box warning">
+                    <p><strong>非医疗用途：</strong>本 App 提供的饮食、热量估算、营养分析、AI 食物识别和健康建议仅供一般健康管理参考，不构成医疗建议、诊断、治疗方案、疾病管理方案或专业营养处方。</p>
+                </div>
+                <p>本 App 面向 16 岁及以上用户，不面向 16 岁以下儿童。如你未满 16 岁，请勿使用本 App 或提交个人信息。</p>
+            </section>
+
+            <section id="data">
+                <h2>二、我们收集的信息</h2>
+                <p>为提供 SnapKcal AI 的核心功能，我们可能收集和处理以下信息：</p>
+
+                <h3>1. 账号信息</h3>
+                <p>包括你的登录方式、用户 ID、邮箱地址、Apple 登录标识或其他用于创建、登录、识别和维护账号的必要信息。</p>
+
+                <h3>2. 身高、体重与目标信息</h3>
+                <p>包括你的身高、当前体重、目标体重、活动水平、目标类型，以及基于这些信息生成的每日热量目标、蛋白质目标、碳水目标、脂肪目标和相关计算结果。</p>
+
+                <h3>3. 饮食记录信息</h3>
+                <p>包括你手动添加或通过 AI 识别生成的食物名称、热量、估算重量、蛋白质、碳水、脂肪、饮水记录、体重趋势、打卡记录、编辑或删除记录的操作信息。</p>
+
+                <h3>4. 照片上传与 AI 识别信息</h3>
+                <p>当你主动使用 AI 拍照识别功能时，我们会处理你选择上传的食物照片，以及由 AI 识别生成的食物名称、热量、估算重量、营养信息、置信度和你手动修改后的结果。</p>
+                <p>请勿上传包含他人隐私、身份证件、支付信息、医疗资料、儿童信息或与食物识别无关的照片。</p>
+                <p>本 App 当前不接入 Apple Health / HealthKit，也不会从 Apple Health 读取或写入健康数据。</p>
+
+                <h3>5. 云同步信息</h3>
+                <p>如你登录账号，我们可能将你的账号信息、目标设置、饮食记录、体重记录、AI 使用次数、订阅权益状态和其他必要数据同步至云端，以便你在同一账号下恢复和使用数据。</p>
+
+                <h3>6. 订阅信息</h3>
+                <p>包括订阅产品名称、订阅状态、购买时间、到期时间、续订状态、恢复购买状态，以及 Apple 返回的必要交易验证信息。我们不会收集或保存你的完整银行卡、信用卡信息或 Apple ID 密码。</p>
+
+                <h3>7. 日志、设备与安全信息</h3>
+                <p>包括设备型号、操作系统版本、App 版本、语言和地区设置、错误日志、崩溃信息、接口调用状态、风控记录、限流记录、登录状态、服务响应状态和必要的诊断信息。</p>
+            </section>
+
+            <section id="use">
+                <h2>三、我们如何使用信息</h2>
+                <ul>
+                    <li>创建、登录、识别和维护你的账号；</li>
+                    <li>计算并展示每日热量和营养目标；</li>
+                    <li>记录、展示、编辑和删除饮食、体重、饮水和打卡数据；</li>
+                    <li>提供 AI 食物识别、热量估算和一般饮食建议；</li>
+                    <li>同步你的数据并在同一账号下恢复数据；</li>
+                    <li>验证免费 AI 使用次数、订阅状态和订阅权益；</li>
+                    <li>进行接口限流、防刷、防滥用和服务安全保护；</li>
+                    <li>排查故障、修复错误、优化产品体验；</li>
+                    <li>满足法律法规、监管要求、平台审核和争议处理需要。</li>
+                </ul>
+            </section>
+
+            <section id="photo-ai">
+                <h2>四、照片上传、后端代理与 AI 识别</h2>
+                <p>当你使用 AI 拍照识别功能时，你选择的食物照片会被上传至我们的后端代理服务，用于识别食物和估算营养信息。客户端不会保存或暴露底层服务密钥。</p>
+                <p>按当前后端代理实现，完整食物照片仅用于本次识别请求处理，不会写入我们的应用数据库或文件存储。为完成识别，照片会在请求期间传输至相关识别服务；服务日志仅应保存请求编号、脱敏用户标识、接口状态、响应耗时、图片大小和识别摘要等必要元数据，不应记录完整照片、图片 base64、底层服务响应原文、密钥或完整令牌。</p>
+                <p>AI 识别结果可能不准确，包括食物名称、重量、热量、蛋白质、碳水、脂肪和置信度等信息均可能存在误差。你可以手动修改识别结果，并应根据实际情况自行核对。</p>
+                <p>除非另行取得你的明确同意，我们不会将你的食物照片用于广告投放、用户画像或公开模型训练。本页面不披露具体底层 AI 供应商或模型名称。</p>
+                <div class="box">
+                    <p><strong>上传提示短文案：</strong>你选择的食物照片将上传至我们的后端代理服务，用于 AI 食物识别和营养估算。识别结果可能不准确，你可以手动修改。请勿上传包含他人隐私、敏感信息或与食物识别无关的照片。</p>
+                </div>
+            </section>
+
+            <section id="advice">
+                <h2>五、AI 饮食建议与健康免责声明</h2>
+                <p>SnapKcal AI 可能根据你的目标设置、活动水平、近期饮食记录和营养摄入情况生成一般饮食建议。</p>
+                <p>这些建议仅供一般健康管理参考，不构成医疗建议、诊断、治疗方案、疾病管理方案或专业营养处方。我们不会针对糖尿病、高血压、进食障碍、孕期营养、儿童营养或其他疾病、特殊健康状态提供管理建议。</p>
+                <div class="box warning">
+                    <p><strong>免责声明：</strong>SnapKcal AI 提供的热量估算、营养分析、AI 食物识别和饮食建议仅用于一般健康管理和记录参考，不构成医疗建议、医学诊断、疾病治疗、疾病管理、处方建议或专业营养处方。AI 识别和估算结果可能存在误差，你应自行核对并根据个人情况谨慎使用。</p>
+                </div>
+            </section>
+
+            <section id="sync">
+                <h2>六、云同步、免费 5 次与数据管理</h2>
+                <p>如你登录账号，我们会将你的目标设置、饮食记录、体重记录、AI 使用次数、订阅权益状态等必要数据同步至云端，以便你在同一账号下使用、恢复和管理数据。</p>
+                <p>免费用户可免费使用 AI 功能 5 次。我们会记录必要的 AI 使用次数和订阅权益状态，用于判断是否需要订阅解锁 AI 拍照识别和 AI 个性化饮食建议。为避免异常高频调用和滥用，相关次数、权益和限流逻辑可能由服务端校验。</p>
+                <p>你可以通过 App 内功能删除部分记录。你也可以在 App 设置页通过“请求删除账号与数据”入口发起账号注销和个人数据删除请求。第一版中，该请求将通过 support@snapkcal.com 邮件或客服工单处理。为保护账号安全，我们可能需要验证你的账号身份后再处理删除请求。</p>
+            </section>
+
+            <section id="subscription">
+                <h2>七、订阅与 Apple 交易验证</h2>
+                <p>SnapKcal AI Pro 订阅通过 Apple App Store 处理。确认购买后，Apple 会通过你的 Apple ID / Apple Account 扣费。</p>
+                <p>我们不会收集或保存你的完整银行卡、信用卡信息或 Apple ID 密码。我们会接收必要的交易验证结果，用于判断你是否享有订阅权益、是否可以恢复购买、是否应解锁 AI 拍照识别和 AI 个性化饮食建议。</p>
+                <p>订阅价格、自动续订、取消方式、恢复购买和退款规则应以 App 内订阅页面和 Apple App Store 规则为准。</p>
+            </section>
+
+            <section id="third-party">
+                <h2>八、第三方服务类型</h2>
+                <p>为实现必要功能，我们可能使用以下类型的第三方服务。我们会按照最小必要原则使用相关服务，并避免在 App 或公开页面中披露底层 AI 供应商或模型名称。</p>
+                <ul>
+                    <li><strong>账号与登录服务：</strong>用于账号创建、登录和身份识别。</li>
+                    <li><strong>Apple App Store 与订阅验证服务：</strong>用于处理购买、订阅状态、恢复购买和交易验证。</li>
+                    <li><strong>云同步与后端基础设施：</strong>用于保存和同步账号下的目标、记录、AI 使用次数和订阅权益状态。</li>
+                    <li><strong>AI 食物识别相关服务：</strong>通过我们的后端代理处理食物照片和营养估算请求。</li>
+                    <li><strong>崩溃分析、日志、监控和安全风控服务：</strong>用于排查故障、保障稳定性、防止滥用和异常高频调用。</li>
+                </ul>
+                <p>我们会要求第三方仅在实现相关功能所必需的范围内处理信息，并采取合理的数据保护措施。</p>
+            </section>
+
+            <section id="retention">
+                <h2>九、信息保存与删除</h2>
+                <ul>
+                    <li>账号、目标、饮食、体重和云同步数据通常保存至你删除相关记录或注销账号；</li>
+                    <li>订阅交易相关记录会按 Apple、税务、审计、争议处理和合规要求保存必要期限；</li>
+                    <li>应用运行日志建议保存 14 天，安全审计与聚合指标建议保存 90 天；日志、诊断和安全风控数据会在排障、安全保护和防滥用所需期限内保存，且应避免保存完整照片、图片 base64、底层服务响应原文、密钥或完整令牌；</li>
+                    <li>按当前后端代理实现，完整食物照片不会写入我们的应用数据库或文件存储，通常仅在本次识别请求处理期间使用。</li>
+                </ul>
+            </section>
+
+            <section id="rights">
+                <h2>十、你的权利</h2>
+                <p>你可以申请访问、更正、删除个人信息或注销账号。你可以在 App 设置页通过“请求删除账号与数据”入口发起账号注销和个人数据删除请求。第一版中，该请求将通过 support@snapkcal.com 邮件或客服工单处理。为保护账号安全，我们可能需要验证你的账号身份后再处理删除请求。</p>
+                <p>在完成必要身份验证后，我们会在适用法律要求的期限内处理你的请求，并删除或匿名化与你账号相关的个人信息，包括账号信息、目标设置、饮食记录、体重记录、云同步数据和 AI 使用记录。依法或为订阅结算、税务、审计、安全风控、争议处理所必须保留的信息，可能会在必要期限内继续保存。</p>
+                <p>删除账号不会自动取消你通过 Apple App Store 开通的订阅。你需要在 Apple ID / Apple Account 的订阅管理页面自行取消订阅。</p>
+                <p>如果你撤回某些权限或删除部分数据，相关功能可能无法继续正常使用。例如，关闭相机或相册权限后，你可能无法使用拍照识别或从相册选择食物照片。</p>
+            </section>
+
+            <section id="security">
+                <h2>十一、数据安全</h2>
+                <p>我们会采取合理的技术和管理措施保护你的信息，包括传输加密、访问控制、日志脱敏、权限管理和异常调用监控。任何互联网传输或存储方式都无法保证绝对安全，但我们会在合理范围内持续改进保护措施。</p>
+            </section>
+
+            <section id="updates">
+                <h2>十二、政策更新</h2>
+                <p>我们可能会因产品功能、法律法规、平台规则或第三方服务变化而更新本政策。若发生重大变更，我们会通过 App 内提示、网页公告或其他适当方式通知你。</p>
+            </section>
+
+            <section id="contact">
+                <h2>十三、联系我们</h2>
+                <p>如你对本隐私政策或个人信息权利有任何问题，请联系：</p>
+                <p>邮箱：support@snapkcal.com</p>
+                <p>运营主体：App Store Connect 中显示的 SnapKcal AI 开发者主体</p>
+            </section>
+
+            <section id="english">
+                <h2>English Summary</h2>
+                <p>SnapKcal AI is a nutrition logging, calorie estimation, AI food recognition, and general wellness management app for users aged 16 or older. This page summarizes how we collect and use account information, height and weight goals, food logs, food photos, AI recognition results, cloud sync data, subscription status, Apple transaction validation information, device logs, diagnostics, and security records.</p>
+                <p>When you use AI photo food recognition, the food photo you select is uploaded to our backend proxy service for food recognition and nutrition estimation. Based on the current backend proxy implementation, full food photos are used for the active recognition request and are not written to our application database or file storage. Service logs should keep only necessary redacted metadata and should not store full photos, image base64, raw underlying service responses, secrets, or full tokens. AI results may be inaccurate and can be edited by you. We do not disclose the specific underlying AI provider or model on this page.</p>
+                <p>SnapKcal AI Pro subscriptions are processed by Apple through the App Store. We do not collect or store your full payment card details or Apple ID password. We receive necessary transaction validation results to determine subscription access and restore purchase status.</p>
+                <p>Free users receive 5 free AI uses. Usage count, subscription access, and rate limits may be verified by the server to prevent abuse.</p>
+                <p>Food records, calorie estimates, nutrition analysis, AI food recognition, and wellness suggestions in this app are for general wellness management only and are not medical advice, diagnosis, treatment, disease management, or professional dietetic guidance.</p>
+                <p>You may initiate an account and personal data deletion request from the “Request Account and Data Deletion” entry in the app settings. In the first release, requests will be handled through support@snapkcal.com or a customer support ticket. To protect account security, we may need to verify your account identity before processing the request. Deleting your account does not automatically cancel subscriptions purchased through the Apple App Store. You must manage or cancel your subscription through your Apple ID / Apple Account subscription settings.</p>
+            </section>
+        </main>
+
+        <footer>
+            <p>Copyright 2026 SnapKcal. All rights reserved.</p>
+            <p>For privacy questions, account data requests, and support, contact support@snapkcal.com.</p>
+        </footer>
+    </div>
+</body>
+</html>
