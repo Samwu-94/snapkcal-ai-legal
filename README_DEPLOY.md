@@ -13,14 +13,14 @@ This directory is ready to deploy as a static website.
 | `/terms.html` | `terms.html` |
 | `/subscription-terms.html` | `subscription-terms.html` |
 
-## Recommended Final URLs
+## Published Final URLs
 
-After deploying this directory to a public HTTPS domain, use these URLs:
+Use these URLs:
 
 ```text
-SNAPKCAL_PRIVACY_URL=https://<domain>/privacy/
-SNAPKCAL_TERMS_URL=https://<domain>/terms/
-SNAPKCAL_SUBSCRIPTION_TERMS_URL=https://<domain>/subscription-terms/
+SNAPKCAL_PRIVACY_URL=https://samwu-94.github.io/snapkcal-ai-legal/privacy/
+SNAPKCAL_TERMS_URL=https://samwu-94.github.io/snapkcal-ai-legal/terms/
+SNAPKCAL_SUBSCRIPTION_TERMS_URL=https://samwu-94.github.io/snapkcal-ai-legal/subscription-terms/
 ```
 
 Use the same URLs in:
@@ -40,4 +40,3 @@ Confirm:
 - Pages do not show draft, placeholder, API, token, or internal AI provider/model text.
 - The effective date and support email are correct.
 - The developer/entity wording matches the App Store Connect developer account or the confirmed operating entity.
-
